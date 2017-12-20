@@ -3,7 +3,7 @@
       <cfset sTableName = "app.cf_mock_data" />
       <cfset listColumns = "first_name,last_name,ip_address,email,currency" />
       <cfset sIndexColumn = "email" />
-      <!-- column name to query on from dropdown on UI.-->
+      <!--- column name to query on from dropdown on UI.--->
       <cfset sQueryOnColumn = "currency" />
       <cfset coldfusionDatasource = "LocalDB"/>
       <cfparam name="url.sEcho" default="1" type="integer" />
